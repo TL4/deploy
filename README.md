@@ -1,7 +1,9 @@
 deploy
 ======
 
-一键部署系统
+一键部署系统.
+
+![演示界面](https://raw.githubusercontent.com/TL4/deploy/master/deploy/static/img/demo.png "demo")
 
 
 ## 开发步骤
