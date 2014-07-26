@@ -10,7 +10,8 @@ deploy
 
 - 安装 virtualenv & virtualenvwrapper
 - $ mkvirtualenv deploy
-- $ git clone git@github.com:TL4/deploy.git
+- $ fork 你的分支
+- $ git clone 你的分支
 - $ cd deploy
 - $ pip install -r pip-req.txt
 - $ python run.py
