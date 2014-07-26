@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+  <p class="lead">一键部署服务（暂时是执行一个 `ls -l` 命令）</p>
+  <p><a class="btn btn-lg btn-success" href="/run" role="button">部！</a></p>
+</div>
+
+<div class="output">
+  {% for line in output %}
+    {{ line }} <br/>
+  {% endfor %}
+</div>
+<div class="container">
+{% endblock %}

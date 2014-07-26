@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>deploy</title>
+    <link rel="stylesheet" href="/static/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    {% block extra_head %}{% endblock %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">Deploy</h3>
+      </div>
+      {% block content %}{% endblock %}
+    </div>
+    <script src="/static/js/lib/jquery-1.10.2.min.js"></script>
+    <script src="/static/js/lib/bootstrap.min.js"></script>
+    {% block bottom_script %}{% endblock %}
+  </body>
+</html>
