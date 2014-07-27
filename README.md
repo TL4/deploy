@@ -8,7 +8,7 @@ deploy
 
 ## 开发步骤
 
-- 安装 virtualenv & virtualenvwrapper
+- 安装 virtualenv & virtualenvwrapper ![Installing Pip, Virtualenv & VirtualenvWrapper on OS X](http://jamie.curle.io/blog/installing-pip-virtualenv-and-virtualenvwrapper-on-os-x/)
 - $ mkvirtualenv deploy
 - $ fork 你的分支
 - $ git clone 你的分支
